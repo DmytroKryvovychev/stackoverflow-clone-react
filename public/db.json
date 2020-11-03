@@ -1,0 +1,106 @@
+{
+  "questions": [
+    {
+      "title": "Help me pls!!!",
+      "author": "Jhon Smith",
+      "text": "What to do?",
+      "creationTime": "2020-11-01T10:05:41.408Z",
+      "votes": 4,
+      "views": 158,
+      "id": 1
+    },
+    {
+      "title": "Help him pls!!!",
+      "author": "Joanne Smith",
+      "text": "New world of stackoverflow",
+      "creationTime": "2020-11-01T10:05:41.408Z",
+      "votes": -1,
+      "views": 65,
+      "id": 2
+    },
+    {
+      "title": "Something new",
+      "author": "Myself",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan, massa vel convallis mollis, justo arcu porttitor magna, finibus bibendum lacus neque non orci. Integer porta consequat purus vel efficitur. Suspendisse tempus, risus quis commodo vulputate, nisi dui pellentesque dolor, id suscipit sem velit quis nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin tortor sem, pulvinar et rutrum vitae, semper ut purus. Nam eget interdum nunc, non ullamcorper felis. In venenatis leo enim, nec sagittis massa malesuada et. Nam mi dui, ullamcorper et magna sed, euismod mollis metus. Morbi vel enim felis.",
+      "creationTime": "2020-11-02T10:05:41.408Z",
+      "votes": 1,
+      "views": 39,
+      "id": 3
+    },
+    {
+      "title": "dw!",
+      "author": "dw!",
+      "text": "wd!",
+      "creationTime": "2020-11-02T21:53:20.229Z",
+      "votes": 1,
+      "views": 5,
+      "id": 4
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "author": "Jane Dou",
+      "text": "Learn React",
+      "creationTime": "2020-11-01T10:05:41.408Z",
+      "votes": 7,
+      "questionId": 1
+    },
+    {
+      "id": 2,
+      "author": "Jane Mini",
+      "text": "Do not learn Angular",
+      "creationTime": "2020-11-01T10:05:41.408Z",
+      "votes": 1,
+      "questionId": 1
+    },
+    {
+      "author": "Jane Dou",
+      "text": "I knew it",
+      "creationTime": "2020-11-01T10:05:41.408Z",
+      "votes": 1,
+      "questionId": "3",
+      "id": 3
+    },
+    {
+      "author": "Jane Dou",
+      "text": "I knew it",
+      "creationTime": "2020-11-01T10:05:41.408Z",
+      "votes": 1,
+      "questionId": "3",
+      "id": 4
+    },
+    {
+      "author": "My",
+      "text": "Test",
+      "creationTime": "2020-11-02T11:52:51.833Z",
+      "votes": 2,
+      "questionId": "3",
+      "id": 5
+    },
+    {
+      "author": "Test",
+      "text": "Testing comment",
+      "creationTime": "2020-11-02T11:53:11.673Z",
+      "votes": 0,
+      "questionId": "3",
+      "id": 6
+    },
+    {
+      "author": "dawdawdw",
+      "text": "dwadawd",
+      "creationTime": "2020-11-02T11:56:44.594Z",
+      "votes": 2,
+      "questionId": "1",
+      "id": 7
+    },
+    {
+      "author": "Mike",
+      "text": "Tests",
+      "creationTime": "2020-11-02T12:49:46.755Z",
+      "votes": 0,
+      "questionId": "3",
+      "id": 8
+    }
+  ]
+}

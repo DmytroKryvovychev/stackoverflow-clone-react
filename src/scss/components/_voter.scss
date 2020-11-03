@@ -1,0 +1,17 @@
+.voter__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .MuiSvgIcon-root {
+    cursor: pointer;
+
+    &.vote-up:hover {
+      fill: green;
+    }
+
+    &.vote-down:hover {
+      fill: crimson;
+    }
+  }
+}

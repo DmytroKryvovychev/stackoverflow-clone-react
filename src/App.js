@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route, Redirect, Link } from 'react-router-dom';
+
+import { Home, AskNewQuestion, Question } from './pages/index';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Link to="/questions">
+        <header>Stackoverflow clone</header>
+      </Link>
+      <Switch>
+        <Route path="/questions" exact>
+          <Home />
+        </Route>
+        <Route path="/questions/:id" exact>
+          <Question />
+        </Route>
+        <Route path="/new_question" exact>
+          <AskNewQuestion />
+        </Route>
+        <Route path="*" exact children={<Redirect to="/questions" />} />
+      </Switch>
     </div>
   );
 }
